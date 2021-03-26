@@ -1,0 +1,40 @@
+body{
+    top: 0;
+    margin: 0;
+    font-family: 'Spartan', sans-serif;
+    font-size: 15;
+}
+.flex{
+    display: flex;
+
+    &-jc-c{
+        justify-content: center;
+    }
+    &-jc-sb{
+        justify-content: space-between;
+    }
+    &-ai-c{
+        align-items: center;
+    }
+    &-fd-r{
+        flex-direction: row;
+    }
+    &-fd-c{
+        flex-direction: column;
+    }
+    &-as-c{
+        align-self: center;
+    }
+    &-as-fe{
+        align-self: flex-end;
+    }
+    
+}
+.float{
+    &-r{
+        float: right;
+    }
+    &-l{
+        float: left;
+    }
+}
